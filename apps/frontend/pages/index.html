@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Mi Mini Tienda</title>
+  </head>
+  <body>
+    <div class="products-cont"></div>
+
+    <div class="carrito">
+      <h2>Carrito</h2>
+      <ul id="lista-carrito"></ul>
+      <p><strong>Total: $</strong> <span id="total">0</span></p>
+      <button class="btn-ws" onclick="enviarWhatsApp()">
+        Finalizar Compra por WhatsApp
+      </button>
+    </div>
+
+    <script type="module" src="/services/tienda.js"></script>
+    <script src="/services/script.js" defer></script>
+  </body>
+</html>
